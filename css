@@ -1,0 +1,57 @@
+.clock{
+  height: 40vw;
+  width: 40vw;
+  margin: auto;
+  background-color: skyblue;
+  
+  position: relative;
+  border-radius: 45px;
+  border:5px solid black;
+}
+
+/*.outer-cicle(
+
+display: none;
+
+}*/
+
+#hours, #minutes, #seconds{
+  position: absolute;
+  border-radius: 100px;
+  transform-origin: bottom;
+}
+#hours{
+  width: 7%;
+  height: 25%;
+  top: 25%;
+  left: 49%;
+  opacity: 0.65;
+  background-color: black;
+}
+#minutes{
+  width: 6%;
+  height:35%;
+  top: 15%;
+  left: 49%;
+  opacity: 0.65;
+  background-color:green;
+
+}
+
+#seconds{
+  width: 4%;
+  height:45%;
+  top: 6%;
+  left: 49%;
+  opacity: 0.65;
+  background-color: red;
+
+}
+.digital-clock { 
+  margin-top: 30px; 
+  font-size: 40px;
+  font-weight:solid bold;
+  
+  
+
+}
